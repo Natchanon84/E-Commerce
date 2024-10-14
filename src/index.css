@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* a{
+        @apply m-0 p-2 bg-black text-white rounded-xl 
+    } */
+}
+
+@layer components {
+  .check {
+    border: 1px solid red;
+  }
+  .height {
+    height: 80vh;
+  }
+  .h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .icon {
+    width: 2rem;
+    height: 100%;
+  }
+  .box {
+    /* width: 20rem;
+    height: 20rem; */
+    margin: 1rem;
+  }
+}
